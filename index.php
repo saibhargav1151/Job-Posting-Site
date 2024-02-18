@@ -91,8 +91,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit'])) {
           <a href="#" class="text-blue-500 hover:underline">Back to Listings</a>
         </div>
       </form>
-
-      <!-- Display submitted data -->
       <?php if ($submitted) : ?>
         <div class="mt-6 p-4 border rounded bg-gray-200">
           <h2 class="text-lg font-semibold">Submitted Job Listing:</h2>
